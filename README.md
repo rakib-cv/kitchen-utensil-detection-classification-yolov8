@@ -138,6 +138,53 @@ The following examples illustrate detection performance under different visibili
   </tr>
 </table>
 
+## Repository Structure
+
+- `README.md` — project overview, methodology, and results
+- `requirements.txt` — Python dependencies
+- `images/` — sample outputs under occluded and non-occluded scenes
+- `scripts/` — inference, prediction generation, and evaluation scripts
+- `LICENSE` — MIT license
+
+## Code Structure
+
+- `scripts/inference_demo.py` — runs YOLOv8 on kitchen scene videos and produces annotated visual outputs
+- `scripts/generate_predictions.py` — generates YOLO-format prediction files with confidence scores for evaluation
+- `scripts/evaluate_metrics.py` — computes Precision, Recall, F1, Mean IoU, mAP@0.5, and mAP@0.5:0.95
+
+## Quick Start
+
+### Install
+```bash
+pip install -r requirements.txt
+```
+
+### Run qualitative demo
+```bash
+python scripts/inference_demo.py
+```
+
+### Generate predictions for evaluation
+```bash
+python scripts/generate_predictions.py
+```
+
+### Run evaluation
+```bash
+python scripts/evaluate_metrics.py
+```
+
+### Notes
+The current scripts use local dataset and model paths. Update the file paths in each script before running.
+
+## Model Availability
+
+Trained weights are not included in this repository at the moment.
+
+## Dataset Availability
+
+The full dataset is not currently public. This repository presents the dataset summary, experimental setup, and sample results from the research.
+
 ## Tech Stack
 
 - Python

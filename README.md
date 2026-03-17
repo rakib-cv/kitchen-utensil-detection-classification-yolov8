@@ -60,7 +60,7 @@ The detection pipeline is based on **YOLOv8**, chosen for its real-time performa
 - **Batch size:** 16
 - **Epochs:** 200
 
-## Models Evaluated
+## Models Evaluation
 
 The following YOLOv8 variants were compared:
 
@@ -116,14 +116,27 @@ Future work will focus on:
 - assistive safety alerts for vulnerable users
 - deployment on edge or embedded systems
 
+
+The following examples illustrate detection performance under different visibility conditions.
+
 <h2>Sample Results</h2>
 
 <p>Example detections under occluded and non-occluded kitchen scenes:</p>
 
-<p align="center">
-  <img src="images/occluded_example.png" alt="Occluded Example" width="400"/>
-  <img src="images/non_occluded_example.png" alt="Non-Occluded Example" width="400"/>
-</p>
+<table align="center">
+  <tr>
+    <th>Occluded Scene</th>
+    <th>Non-Occluded Scene</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/occluded_example.jpg" width="400"/>
+    </td>
+    <td align="center">
+      <img src="images/non_occluded_example.jpg" width="400"/>
+    </td>
+  </tr>
+</table>
 
 ## Tech Stack
 

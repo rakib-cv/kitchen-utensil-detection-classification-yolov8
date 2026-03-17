@@ -175,6 +175,23 @@ python scripts/evaluate_metrics.py
 ### Notes
 The current scripts use local dataset, model and output paths. Update the file paths in each script before running.
 
+### Input Format
+
+- Ground truth and prediction files follow YOLO format:
+  `class_id x_center y_center width height`
+- Prediction files additionally include confidence:
+  `class_id confidence x_center y_center width height`
+
+  ### Output
+
+The evaluate_metrics script generates a CSV file containing:
+- Precision
+- Recall
+- F1 Score
+- Mean IoU
+- mAP@0.5
+- mAP@0.5:0.95
+
 ## Model Availability
 
 Trained model weights are not included in this repository at the moment.

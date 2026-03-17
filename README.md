@@ -165,8 +165,3 @@ If you use or reference this work, please cite:
   organization={IEEE}
 }
 
-##  Author
-
-- **Rakib NMA Salam
-- **PhD Researcher, Tokushima University  
-- **Computer Vision, Object Detection, Kitchen Safety AI

@@ -120,8 +120,8 @@ Future work will focus on:
 
 Example detections under occluded and non-occluded kitchen scenes:
 
-![Occluded Example](images/occluded_example.jpg)
-![Non-Occluded Example](images/non_occluded_example.jpg)
+![Occluded Example](images/occluded_example.png)
+![Non-Occluded Example](images/non_occluded_example.png)
 
 ## Tech Stack
 

@@ -50,7 +50,9 @@ The detection pipeline is based on **YOLOv8**, chosen for its real-time performa
 4. Each utensil is mapped to a predefined risk category:
    - **Dangerous**: e.g. knives, peelers, tongs
    - **Safe**: e.g. ladles, spatulas, spoons
-5. Output is visualized with annotated frames
+5. Output is visualized with annotated frames:
+   - **Dangerous** utensils are highlighted with red bounding boxes
+   - **Safe** utensils are highlighted with green bounding boxes
 
 ## Training Configuration
 
@@ -132,6 +134,25 @@ The following examples illustrate detection performance under occluded and non-o
     </td>
     <td align="center">
       <img src="images/non_occluded_example.png" width="400"/>
+    </td>
+  </tr>
+</table>
+
+## Demo
+
+The following GIFs show qualitative detection results on kitchen scenes under different visibility conditions.
+
+<table align="center">
+  <tr>
+    <th>Occluded Demo</th>
+    <th>Non-Occluded Demo</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/occluded_demo.gif" width="400"/>
+    </td>
+    <td align="center">
+      <img src="images/non_occluded_demo.gif" width="400"/>
     </td>
   </tr>
 </table>

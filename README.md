@@ -182,7 +182,7 @@ The current scripts use local dataset, model and output paths. Update the file p
 - Prediction files additionally include confidence:
   `class_id confidence x_center y_center width height`
 
-  ### Output
+### Output
 
 The evaluate_metrics script generates a CSV file containing:
 - Precision

@@ -130,10 +130,10 @@ The following examples illustrate detection performance under different visibili
   </tr>
   <tr>
     <td align="center">
-      <img src="images/occluded_example.jpg" width="400"/>
+      <img src="images/occluded_example.png" width="400"/>
     </td>
     <td align="center">
-      <img src="images/non_occluded_example.jpg" width="400"/>
+      <img src="images/non_occluded_example.png" width="400"/>
     </td>
   </tr>
 </table>

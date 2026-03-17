@@ -164,4 +164,13 @@ If you use or reference this work, please cite:
   year={2025},
   organization={IEEE}
 }
+```
+## Author
 
+**NMA Salam Rakib**  
+PhD Researcher  
+Tokushima University  
+
+- Computer Vision  
+- Object Detection  
+- Kitchen Safety AI

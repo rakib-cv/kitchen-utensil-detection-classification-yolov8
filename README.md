@@ -4,7 +4,7 @@ A computer vision project for detecting and classifying kitchen utensils as a fo
 
 ## Overview
 
-This project investigates the feasibility of using deep learning-based object detection for kitchen safety monitoring. A YOLOv8-based system was developed to detect and classify 20 categories of kitchen utensils under both occluded and non-occluded conditions. Each detected utensil is mapped to a static safety category, such as safe or dangerous based on utensil type.
+This project investigates the feasibility of using deep learning-based object detection for kitchen safety monitoring. A YOLOv8-based system was developed to detect and classify 20 categories of kitchen utensils under both occluded and non-occluded conditions. Each detected utensil is mapped to a static safety category, such as safe or dangerous, based on utensil type.
 
 This work is based on my research paper:
 
@@ -117,11 +117,9 @@ Future work will focus on:
 - deployment on edge or embedded systems
 
 
-The following examples illustrate detection performance under different visibility conditions.
+## Sample Results
 
-<h2>Sample Results</h2>
-
-<p>Example detections under occluded and non-occluded kitchen scenes:</p>
+The following examples illustrate detection performance under occluded and non-occluded kitchen scenes.
 
 <table align="center">
   <tr>
@@ -140,9 +138,9 @@ The following examples illustrate detection performance under different visibili
 
 ## Repository Structure
 
-- `README.md` — project overview, methodology, and results
+- `README.md` — project overview, methodology, results, and usage instructions
 - `requirements.txt` — Python dependencies
-- `images/` — sample outputs under occluded and non-occluded scenes
+- `images/` — sample qualitative results under occluded and non-occluded scenes
 - `scripts/` — inference, prediction generation, and evaluation scripts
 - `LICENSE` — MIT license
 
@@ -175,15 +173,15 @@ python scripts/evaluate_metrics.py
 ```
 
 ### Notes
-The current scripts use local dataset and model paths. Update the file paths in each script before running.
+The current scripts use local dataset, model and output paths. Update the file paths in each script before running.
 
 ## Model Availability
 
-Trained weights are not included in this repository at the moment.
+Trained model weights are not included in this repository at the moment.
 
 ## Dataset Availability
 
-The full dataset is not currently public. This repository presents the dataset summary, experimental setup, and sample results from the research.
+The full dataset is not currently public. This repository provides the dataset summary, experimental setup, and representative sample results from the study.
 
 ## Tech Stack
 

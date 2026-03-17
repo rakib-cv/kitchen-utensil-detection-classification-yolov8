@@ -118,7 +118,7 @@ Future work will focus on:
 
 ## Sample Results
 
-Add some example prediction images here:
+Example detections under occluded and non-occluded kitchen scenes:
 
 ![Occluded Example](images/occluded_example.jpg)
 ![Non-Occluded Example](images/non_occluded_example.jpg)
@@ -134,6 +134,7 @@ Add some example prediction images here:
 - PyTorch
 
 ## Citation
+
 Published at ICIIBMS 2025 (IEEE Conference)
 
 If you use or reference this work, please cite:
@@ -148,8 +149,8 @@ If you use or reference this work, please cite:
   year={2025},
   organization={IEEE}
 }
-## Author
+Author
 
-** Rakib NMA Salam**  
+Rakib NMA Salam
 PhD Researcher, Tokushima University  
 Computer Vision, Object Detection, Kitchen Safety AI

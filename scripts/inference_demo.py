@@ -1,3 +1,7 @@
+"""
+Runs YOLOv8 inference on kitchen scene videos and saves annotated outputs.
+Used for qualitative visualization of detection performance.
+"""
 import cv2
 from ultralytics import YOLO
 

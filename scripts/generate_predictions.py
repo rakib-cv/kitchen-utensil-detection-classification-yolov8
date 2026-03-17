@@ -6,8 +6,8 @@ import cv2
 model      = YOLO("v8sbest.pt")
 
 # Paths
-image_dir  = r"D:/Kitchen Utensils/Kitchen Utensils Merged V3 20NOV24/extracted_images_Occluded 2"
-output_dir = "predictions_txt_Occluded_2_conf_yolo"
+image_dir  = r"path/to/ground_truth_images"
+output_dir = "path/to/predicted_confidence_score_yolo_format_txt"
 os.makedirs(output_dir, exist_ok=True)
 
 for img_file in os.listdir(image_dir):

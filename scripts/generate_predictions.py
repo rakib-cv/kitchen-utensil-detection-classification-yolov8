@@ -1,3 +1,7 @@
+"""
+Generates YOLO-format prediction files (with confidence scores)
+for evaluation on test datasets.
+"""
 from ultralytics import YOLO
 import os
 import cv2

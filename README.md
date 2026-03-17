@@ -116,12 +116,14 @@ Future work will focus on:
 - assistive safety alerts for vulnerable users
 - deployment on edge or embedded systems
 
-## Sample Results
+<h2>Sample Results</h2>
 
-Example detections under occluded and non-occluded kitchen scenes:
+<p>Example detections under occluded and non-occluded kitchen scenes:</p>
 
-![Occluded Example](images/occluded_example.png)
-![Non-Occluded Example](images/non_occluded_example.png)
+<p align="center">
+  <img src="images/occluded_example.png" alt="Occluded Example" width="400"/>
+  <img src="images/non_occluded_example.png" alt="Non-Occluded Example" width="400"/>
+</p>
 
 ## Tech Stack
 
@@ -150,8 +152,8 @@ If you use or reference this work, please cite:
   organization={IEEE}
 }
 
-Author
+##  Author
 
-Rakib NMA Salam
-PhD Researcher, Tokushima University  
-Computer Vision, Object Detection, Kitchen Safety AI
+- **Rakib NMA Salam
+- **PhD Researcher, Tokushima University  
+- **Computer Vision, Object Detection, Kitchen Safety AI

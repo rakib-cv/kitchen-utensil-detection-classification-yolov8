@@ -1,11 +1,15 @@
+"""
+Computes evaluation metrics including Precision, Recall, F1, Mean IoU,
+mAP@0.5, and mAP@0.5:0.95 from prediction and ground truth files.
+"""
 import os
 import re
 import csv
 import numpy as np
 from collections import defaultdict
 
-TXT_FOLDER = r"D:/Kitchen Utensils/Kitchen Utensils Merged V3 20NOV24/gt_pred_occluded_conf"
-CSV_OUT = "final_detection_evaluation_occluded 2.csv"
+TXT_FOLDER = r"path/to/ground_truth_predicted_confidence_score"
+CSV_OUT = "path/to/final_detection_evaluation.csv"
 
 def load_gt_boxes(path):
     boxes = []
